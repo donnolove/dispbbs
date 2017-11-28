@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.disp_tech.dispbbs.EditorActivity">
+
+    <!-- 有位置的話在上方顯示為圖示-->
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/ic_send_white_48dp"
+        android:title="@string/action_editor_send"
+        app:showAsAction="ifRoom"/>
+
+    <!-- 一律顯示在選單裡-->
+    <item
+        android:id="@+id/action_attimg"
+        android:orderInCategory="100"
+        android:title="插入圖片"
+        app:showAsAction="never" />
+
+</menu>

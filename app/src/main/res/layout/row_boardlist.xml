@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <ImageView
+        android:id="@+id/img_thumb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+        -->
+    <!-- facebook 圖片載入函式庫需要先加入圖片顯示的元件 -->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_thumb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fresco:placeholderImage="@drawable/displogo300"
+        />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/img_thumb"
+        android:layout_alignTop="@+id/img_thumb"
+        android:textColor="#9CF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:layout_alignLeft="@+id/text_title"
+        android:textColor="#FFF"
+        android:textSize="12dp"/>
+
+</RelativeLayout>

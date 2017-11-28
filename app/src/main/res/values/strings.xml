@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Disp BBS</string>
+    <string name="activity_text">閱讀文章</string>
+    <string name="HotTextTitle">熱門文章</string>
+    <string name="BoardListTitle">熱門看板</string>
+    <string name="add_more">載入更多</string>
+    <string name="SearchBoard">搜尋看板</string>
+    <string name="boardSearchHeader">搜尋結果</string>
+    <string name="boardHistoryHeader">瀏覽過的看板</string>
+    <string name="activity_editor">編輯文章</string>
+    <string name="action_textlist_post">發表文章</string>
+    <string name="action_editor_send">送出</string>
+    <string name="action_back">回上頁</string>
+
+
+</resources>
