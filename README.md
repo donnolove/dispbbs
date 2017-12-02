@@ -1,5 +1,5 @@
 # dispbbs
-for sample
+
 reference https://disp.cc/b/11-95KU
 
 ![image](./wiki/pic/1.png)
